@@ -33,23 +33,21 @@
 ![Ambari-config](https://github.com/gamboabdoulraoufou/hdp-4-hadoop-components-installation/blob/master/img/hdp-3-6.png)
 ![Ambari-config](https://github.com/gamboabdoulraoufou/hdp-4-hadoop-components-installation/blob/master/img/hdp-3-7.png)
 ![Ambari-config](https://github.com/gamboabdoulraoufou/hdp-4-hadoop-components-installation/blob/master/img/hdp-3-8.png)
-![Ambari-config](https://github.com/gamboabdoulraoufou/hdp-4-hadoop-components-installation/blob/master/img/hdp-3-9.png)
-
-![Ambari-config](https://github.com/gamboabdoulraoufou/hdp-4-hadoop-components-installation/blob/master/img/hdp-3-10.png)
 ![Ambari-config](https://github.com/gamboabdoulraoufou/hdp-4-hadoop-components-installation/blob/master/img/hdp-3-10-1.png)
 ![Ambari-config](https://github.com/gamboabdoulraoufou/hdp-4-hadoop-components-installation/blob/master/img/hdp-3-10-2.png)
 ![Ambari-config](https://github.com/gamboabdoulraoufou/hdp-4-hadoop-components-installation/blob/master/img/hdp-3-10-3.png)
 ![Ambari-config](https://github.com/gamboabdoulraoufou/hdp-4-hadoop-components-installation/blob/master/img/hdp-3-10-4.png)
 ![Ambari-config](https://github.com/gamboabdoulraoufou/hdp-4-hadoop-components-installation/blob/master/img/hdp-3-10-5.png)
+
+> Enjoy
 ![Ambari-config](https://github.com/gamboabdoulraoufou/hdp-4-hadoop-components-installation/blob/master/img/hdp-3-12.png)
 
 
 
 
-oozie issue
-wget  http://velvet-repo.c.equipe-1314.internal/repo/HDP-UTILS/extjs/extjs-2.2-1.noarch.rpm
+> Troubleshooting with oozie
+```sh
+wget  http://velvet-repo.c.equipe-1314.internal/repo/HDP-UTILS/extjs/extjs-2.2-1.noarch.rpm
 chmod +x extjs-2.2-1.noarch.rpm 
 rpm -ivh extjs-2.2-1.noarch.rpm
-
-
-python /usr/lib/python2.6/site-packages/ambari_agent/HostCleanup.py --silent --skip=users
+```
