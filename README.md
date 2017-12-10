@@ -77,6 +77,10 @@ curl -u admin:$PASSWORD -i -H 'X-Requested-By: ambari' -X PUT -d '{"RequestInfo"
 #### END ####
 
 # save and quit
+
+# add execution right
+chmod +x /root/process/start_hdp_services.sh
+
 # configure crontab
 crontab -e 
 
