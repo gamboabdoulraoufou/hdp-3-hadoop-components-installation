@@ -94,10 +94,15 @@ crontab -e
 # save and quit
 
 ```
-> Confi
+
 > Troubleshooting with oozie
 ```sh
 wget  http://velvet-repo.c.equipe-1314.internal/repo/HDP-UTILS/extjs/extjs-2.2-1.noarch.rpm
 chmod +x extjs-2.2-1.noarch.rpm 
 rpm -ivh extjs-2.2-1.noarch.rpm
+```
+
+> Troubleshooting with Map Reduce
+```sh
+Set Java heap size to 3G
 ```
