@@ -22,6 +22,26 @@
 
 ![Ambari-config](https://github.com/gamboabdoulraoufou/hdp-2-ambari-and-hadoop-components-installation/blob/master/img/ambari_ui.png)
 
+> Get extjs `(hdp-1)_`
+```sh
+cp HDP-UTILS/extjs/extjs-2.2-1.noarch.rpm .
+scp -i /root/.ssh/id_rsa /root/HDP-UTILS/extjs/extjs-2.2-1.noarch.rpm root@cluster-dev-2.c.equipe-1314.internal:/root
+scp -i /root/.ssh/id_rsa /root/HDP-UTILS/extjs/extjs-2.2-1.noarch.rpm root@cluster-dev-3.c.equipe-1314.internal:/root
+
+```
+
+> Install extjs `(all nodes)_`
+```sh
+chmod +x extjs-2.2-1.noarch.rpm
+rpm -ivh extjs-2.2-1.noarch.rpm
+```
+
+> Disable SSL verification `(all nodes)_`
+```sh
+sed -i 's/verify=platform_default/verify=disable/' /etc/python/cert-verification.cfg
+```
+
+
 
 > Follow the step bellow to install cluster
 
